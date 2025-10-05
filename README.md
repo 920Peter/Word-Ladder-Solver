@@ -1,18 +1,19 @@
 # Word-Ladder-Solver
 C program that generates the shortest transformation path between two words using a breadth-first search (BFS) algorithm. 
 
-The Word Ladder Generator is a C application that constructs the shortest transformation sequence between two words, where each intermediate word differs by only one letter and must exist in a given dictionary.
+## What I Learned & Built
+The Word Ladder Generator is a C program that builds the shortest sequence of word transformations between two given words. Each intermediate word in the ladder differs by exactly one letter and must be a valid entry from the provided dictionary file.
 
-The program uses data structures such as linked lists and queues to represent word ladders and efficiently explore valid transformations using a Breadth-First Search (BFS) strategy.
+The program uses linked lists and queues to represent and manage ladders, applying a Breadth-First Search (BFS) algorithm to efficiently explore all possible transformations until a valid path is found.
 
-This project demonstrates strong skills in:
+This project helped me strengthen my understanding of fundamental C programming concepts, including:
 
-Dynamic memory management (malloc, free)
+-Dynamic memory management with malloc and free
 
-File I/O for reading dictionary word lists
+-File I/O to read and filter dictionary data
 
-String manipulation and validation logic
+-String manipulation and comparison
 
-Data structure design (linked lists for ladders, queues for BFS)
+-Data structure design for managing ladders and word storage
 
-Testing and debugging with Valgrind and unit test functions
+-Testing and debugging using custom unit tests and Valgrind
